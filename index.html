@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Número Secreto</title>
+</head>
+
+<body>
+    <main>
+        <figure>
+        <img src="img/ponto-de-interrogacao.png" alt="Imagem de ponto de interrogação">
+        </figure>
+        <div class="container">
+            <div class="container__text">
+                <h1></h1>
+                <p></p>
+            </div>
+            <input type="number" min="1" max="100" class="container__input">
+            <div class="container__button">
+                <button onclick="checkUserAttempt()" class="container__button-chutar">CHUTAR</button>
+                <button onclick="reloadGame()" id="restart" class="container__button-novojogo" disabled>NOVO JOGO</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
