@@ -53,7 +53,7 @@ function clearInput() {
     userAttempt.value = ''; 
 }
 function reloadGame(){
-    let secretNumber = getSecretNumber();
+    secretNumber = getSecretNumber();
     clearInput();
     playerAttempts = 1
     initialMessage();
