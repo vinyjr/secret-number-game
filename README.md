@@ -1,3 +1,3 @@
  # The Secret Number
 
-A project developed in coloboration with Oracle Next Education and Alura!  
+A project developed in the program with Oracle Next Education and Alura!  
